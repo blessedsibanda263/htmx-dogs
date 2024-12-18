@@ -1,4 +1,4 @@
-import { Dog } from "../../models/dog";
+import { Dog } from "../../entities/dog.entity";
 
 export function DogRow(dog: Dog, updating: boolean = false) {
   // if the dog is being updated, we want to perform an out-of-band swap

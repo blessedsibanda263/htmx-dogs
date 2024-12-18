@@ -1,4 +1,4 @@
-import { Dog } from "../../models/dog";
+import { Dog } from "../../entities/dog.entity";
 
 export const DogForm = (selectedDog?: Dog) => {
   const attrs: { [key: string]: string } = {
